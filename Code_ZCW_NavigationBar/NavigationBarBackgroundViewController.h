@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NavigationBarBackgroundViewController.h
 //  Code_ZCW_NavigationBar
 //
 //  Created by 张朝伟 on 16/8/1.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface NavigationBarBackgroundViewController : UIViewController
 
 @end
-

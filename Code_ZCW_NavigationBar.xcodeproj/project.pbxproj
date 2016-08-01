@@ -9,10 +9,20 @@
 /* Begin PBXBuildFile section */
 		2414A2221D4F301C001C1CE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2414A2211D4F301C001C1CE4 /* main.m */; };
 		2414A2251D4F301C001C1CE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2414A2241D4F301C001C1CE4 /* AppDelegate.m */; };
-		2414A2281D4F301C001C1CE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2414A2271D4F301C001C1CE4 /* ViewController.m */; };
 		2414A22B1D4F301C001C1CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2414A2291D4F301C001C1CE4 /* Main.storyboard */; };
 		2414A22D1D4F301C001C1CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2414A22C1D4F301C001C1CE4 /* Assets.xcassets */; };
 		2414A2301D4F301C001C1CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2414A22E1D4F301C001C1CE4 /* LaunchScreen.storyboard */; };
+		2414A2381D4F3040001C1CE4 /* DataSourse.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2414A2371D4F3040001C1CE4 /* DataSourse.plist */; };
+		2414A23B1D4F33C3001C1CE4 /* ZCWMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2414A23A1D4F33C3001C1CE4 /* ZCWMainController.m */; };
+		2414A23F1D4F35F5001C1CE4 /* NavigationBarBackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2414A23E1D4F35F5001C1CE4 /* NavigationBarBackgroundViewController.m */; };
+		2414A2421D4F3607001C1CE4 /* NavigationBackgroundImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2414A2411D4F3607001C1CE4 /* NavigationBackgroundImageController.m */; };
+		2414A2451D4F3613001C1CE4 /* NavigationBarWithBackButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2414A2441D4F3613001C1CE4 /* NavigationBarWithBackButtonController.m */; };
+		2414A2481D4F3620001C1CE4 /* NavigationBarHideLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2414A2471D4F3620001C1CE4 /* NavigationBarHideLineController.m */; };
+		2414A24B1D4F362C001C1CE4 /* NavigationBarBottomLineColorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2414A24A1D4F362C001C1CE4 /* NavigationBarBottomLineColorController.m */; };
+		2414A24E1D4F3638001C1CE4 /* NavigationBarMoreButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2414A24D1D4F3638001C1CE4 /* NavigationBarMoreButtonController.m */; };
+		2414A2511D4F3648001C1CE4 /* NavigationBarAddSegmentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2414A2501D4F3648001C1CE4 /* NavigationBarAddSegmentController.m */; };
+		2414A2541D4F3655001C1CE4 /* NavigationBarChangeBackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2414A2531D4F3655001C1CE4 /* NavigationBarChangeBackgroundViewController.m */; };
+		2414A2571D4F4817001C1CE4 /* ZCWCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2414A2561D4F4817001C1CE4 /* ZCWCustomViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +30,31 @@
 		2414A2211D4F301C001C1CE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2414A2231D4F301C001C1CE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2414A2241D4F301C001C1CE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2414A2261D4F301C001C1CE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2414A2271D4F301C001C1CE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2414A22A1D4F301C001C1CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2414A22C1D4F301C001C1CE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2414A22F1D4F301C001C1CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2414A2311D4F301C001C1CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2414A2371D4F3040001C1CE4 /* DataSourse.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataSourse.plist; sourceTree = "<group>"; };
+		2414A2391D4F33C3001C1CE4 /* ZCWMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCWMainController.h; sourceTree = "<group>"; };
+		2414A23A1D4F33C3001C1CE4 /* ZCWMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCWMainController.m; sourceTree = "<group>"; };
+		2414A23D1D4F35F5001C1CE4 /* NavigationBarBackgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarBackgroundViewController.h; sourceTree = "<group>"; };
+		2414A23E1D4F35F5001C1CE4 /* NavigationBarBackgroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarBackgroundViewController.m; sourceTree = "<group>"; };
+		2414A2401D4F3607001C1CE4 /* NavigationBackgroundImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBackgroundImageController.h; sourceTree = "<group>"; };
+		2414A2411D4F3607001C1CE4 /* NavigationBackgroundImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBackgroundImageController.m; sourceTree = "<group>"; };
+		2414A2431D4F3613001C1CE4 /* NavigationBarWithBackButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarWithBackButtonController.h; sourceTree = "<group>"; };
+		2414A2441D4F3613001C1CE4 /* NavigationBarWithBackButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarWithBackButtonController.m; sourceTree = "<group>"; };
+		2414A2461D4F3620001C1CE4 /* NavigationBarHideLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarHideLineController.h; sourceTree = "<group>"; };
+		2414A2471D4F3620001C1CE4 /* NavigationBarHideLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarHideLineController.m; sourceTree = "<group>"; };
+		2414A2491D4F362C001C1CE4 /* NavigationBarBottomLineColorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarBottomLineColorController.h; sourceTree = "<group>"; };
+		2414A24A1D4F362C001C1CE4 /* NavigationBarBottomLineColorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarBottomLineColorController.m; sourceTree = "<group>"; };
+		2414A24C1D4F3638001C1CE4 /* NavigationBarMoreButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarMoreButtonController.h; sourceTree = "<group>"; };
+		2414A24D1D4F3638001C1CE4 /* NavigationBarMoreButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarMoreButtonController.m; sourceTree = "<group>"; };
+		2414A24F1D4F3648001C1CE4 /* NavigationBarAddSegmentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarAddSegmentController.h; sourceTree = "<group>"; };
+		2414A2501D4F3648001C1CE4 /* NavigationBarAddSegmentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarAddSegmentController.m; sourceTree = "<group>"; };
+		2414A2521D4F3655001C1CE4 /* NavigationBarChangeBackgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarChangeBackgroundViewController.h; sourceTree = "<group>"; };
+		2414A2531D4F3655001C1CE4 /* NavigationBarChangeBackgroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarChangeBackgroundViewController.m; sourceTree = "<group>"; };
+		2414A2551D4F4817001C1CE4 /* ZCWCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCWCustomViewController.h; sourceTree = "<group>"; };
+		2414A2561D4F4817001C1CE4 /* ZCWCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCWCustomViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +87,13 @@
 		2414A21F1D4F301C001C1CE4 /* Code_ZCW_NavigationBar */ = {
 			isa = PBXGroup;
 			children = (
+				2414A23C1D4F35C8001C1CE4 /* ClassNameVC */,
 				2414A2231D4F301C001C1CE4 /* AppDelegate.h */,
 				2414A2241D4F301C001C1CE4 /* AppDelegate.m */,
-				2414A2261D4F301C001C1CE4 /* ViewController.h */,
-				2414A2271D4F301C001C1CE4 /* ViewController.m */,
+				2414A2391D4F33C3001C1CE4 /* ZCWMainController.h */,
+				2414A23A1D4F33C3001C1CE4 /* ZCWMainController.m */,
 				2414A2291D4F301C001C1CE4 /* Main.storyboard */,
+				2414A2371D4F3040001C1CE4 /* DataSourse.plist */,
 				2414A22C1D4F301C001C1CE4 /* Assets.xcassets */,
 				2414A22E1D4F301C001C1CE4 /* LaunchScreen.storyboard */,
 				2414A2311D4F301C001C1CE4 /* Info.plist */,
@@ -77,6 +108,31 @@
 				2414A2211D4F301C001C1CE4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2414A23C1D4F35C8001C1CE4 /* ClassNameVC */ = {
+			isa = PBXGroup;
+			children = (
+				2414A23D1D4F35F5001C1CE4 /* NavigationBarBackgroundViewController.h */,
+				2414A23E1D4F35F5001C1CE4 /* NavigationBarBackgroundViewController.m */,
+				2414A2401D4F3607001C1CE4 /* NavigationBackgroundImageController.h */,
+				2414A2411D4F3607001C1CE4 /* NavigationBackgroundImageController.m */,
+				2414A2431D4F3613001C1CE4 /* NavigationBarWithBackButtonController.h */,
+				2414A2441D4F3613001C1CE4 /* NavigationBarWithBackButtonController.m */,
+				2414A2461D4F3620001C1CE4 /* NavigationBarHideLineController.h */,
+				2414A2471D4F3620001C1CE4 /* NavigationBarHideLineController.m */,
+				2414A2491D4F362C001C1CE4 /* NavigationBarBottomLineColorController.h */,
+				2414A24A1D4F362C001C1CE4 /* NavigationBarBottomLineColorController.m */,
+				2414A24C1D4F3638001C1CE4 /* NavigationBarMoreButtonController.h */,
+				2414A24D1D4F3638001C1CE4 /* NavigationBarMoreButtonController.m */,
+				2414A24F1D4F3648001C1CE4 /* NavigationBarAddSegmentController.h */,
+				2414A2501D4F3648001C1CE4 /* NavigationBarAddSegmentController.m */,
+				2414A2521D4F3655001C1CE4 /* NavigationBarChangeBackgroundViewController.h */,
+				2414A2531D4F3655001C1CE4 /* NavigationBarChangeBackgroundViewController.m */,
+				2414A2551D4F4817001C1CE4 /* ZCWCustomViewController.h */,
+				2414A2561D4F4817001C1CE4 /* ZCWCustomViewController.m */,
+			);
+			name = ClassNameVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2414A2301D4F301C001C1CE4 /* LaunchScreen.storyboard in Resources */,
+				2414A2381D4F3040001C1CE4 /* DataSourse.plist in Resources */,
 				2414A22D1D4F301C001C1CE4 /* Assets.xcassets in Resources */,
 				2414A22B1D4F301C001C1CE4 /* Main.storyboard in Resources */,
 			);
@@ -149,9 +206,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2414A2281D4F301C001C1CE4 /* ViewController.m in Sources */,
+				2414A24B1D4F362C001C1CE4 /* NavigationBarBottomLineColorController.m in Sources */,
+				2414A2511D4F3648001C1CE4 /* NavigationBarAddSegmentController.m in Sources */,
+				2414A2481D4F3620001C1CE4 /* NavigationBarHideLineController.m in Sources */,
 				2414A2251D4F301C001C1CE4 /* AppDelegate.m in Sources */,
+				2414A2421D4F3607001C1CE4 /* NavigationBackgroundImageController.m in Sources */,
+				2414A2541D4F3655001C1CE4 /* NavigationBarChangeBackgroundViewController.m in Sources */,
+				2414A2571D4F4817001C1CE4 /* ZCWCustomViewController.m in Sources */,
+				2414A24E1D4F3638001C1CE4 /* NavigationBarMoreButtonController.m in Sources */,
 				2414A2221D4F301C001C1CE4 /* main.m in Sources */,
+				2414A23F1D4F35F5001C1CE4 /* NavigationBarBackgroundViewController.m in Sources */,
+				2414A2451D4F3613001C1CE4 /* NavigationBarWithBackButtonController.m in Sources */,
+				2414A23B1D4F33C3001C1CE4 /* ZCWMainController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
