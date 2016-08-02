@@ -1,4 +1,8 @@
 # Code_ZCW_NavigationBar
 NavigationController的总结
 
-关于NavigationController的总结
+参考文章[简书地址](http://www.jianshu.com/p/f0d3df54baa6)
+这篇文章比较详细的讲到的NavigationController中的使用。
+其中工程中还有一个ZCWCuotomNavigationController是我曾经用到的自定义NavigationBar的相关知识。
+* 中一个自定义NavigationBar的title，需要自定义一个label。
+* 还有就是实现半透明的NavigationBar，需要插入一个View通过控制这个View的属性来控制NavigationBar的样式。
