@@ -8,6 +8,9 @@
 
 #import "ZCWMainController.h"
 
+#import "ZCWCustomViewController.h"
+#import "NavigationBarHideLineController.h"
+#import "NavigationBarAddSegmentController.h"
 @interface ZCWTestModel : NSObject
 
 @property (copy,nonatomic) NSString *title;
@@ -30,6 +33,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //设置NavigationBar的标题
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(gotoDetailVc:) name:@"Notice3DTouch" object:nil];
     self.navigationItem.title = @"UINavigationBar使用";
     [self loadData];
     [self.tableView reloadData];
@@ -51,6 +55,20 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+#pragma mark 从快捷菜单进入对应页面
+- (void)gotoDetailVc:(NSNotification *)notification {
+    NSString *type = notification.userInfo[@"type"];
+    if ([type isEqualToString:@"1"]) {
+        ZCWCustomViewController *vc = [[ZCWCustomViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    } else if ([type isEqualToString:@"2"]) {
+        NavigationBarHideLineController *vc = [[NavigationBarHideLineController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if ([type isEqualToString:@"3"]) {
+        NavigationBarAddSegmentController *vc = [[NavigationBarAddSegmentController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 #pragma mark - Table view data source

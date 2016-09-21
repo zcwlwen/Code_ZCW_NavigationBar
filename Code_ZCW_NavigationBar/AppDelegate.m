@@ -48,5 +48,12 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+#pragma mark 点击shortcutItem响应事件
+
+- (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler {
+    //通过通知传递type，收到通知的页面做响应的处理
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"Notice3DTouch" object:self userInfo:@{ @"type" : shortcutItem.type }];
+}
+
 
 @end

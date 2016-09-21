@@ -184,6 +184,7 @@
 				TargetAttributes = {
 					2414A21C1D4F301C001C1CE4 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7KHT33HNZK;
 					};
 				};
 			};
@@ -347,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7KHT33HNZK;
 				INFOPLIST_FILE = Code_ZCW_NavigationBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zcwlwen.zcw.Code-ZCW-NavigationBar";
@@ -358,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7KHT33HNZK;
 				INFOPLIST_FILE = Code_ZCW_NavigationBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zcwlwen.zcw.Code-ZCW-NavigationBar";
@@ -384,6 +387,7 @@
 				2414A2361D4F301C001C1CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
